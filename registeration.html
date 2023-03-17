@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="dist/imgs/logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="dist/css/styles.css">
+  <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+  <title>Registeration</title>
+</head>
+<body>
+  <nav id="navbar" class="nav">
+    <a class="logo" href="#"><img src="dist/imgs/logo.svg" alt="" /></a>
+    <span class="navigation">
+      <ul class="nav-list">
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="/registeration.html" class="active">Registeration</a>
+        </li>
+        <li>
+          <a href="/login.html">Login</a>
+        </li>
+      </ul>
+      <a class="btn btn-primary" href="#">get start</a>
+    </span>
+  </nav>
+  <section class="registeration-section">
+    <form id="registeration-form" action="login.html">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+      </div>
+      <div>
+        <label for="confirm-password">Repeat Password</label>
+        <input type="password" name="confirm-password" id="confirm-password" required>
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <label for="male-gender"><input type="radio" name="gender" id="male-gender" value="male" required> Male</label>
+        <label for="female-gender"><input type="radio" name="gender" id="female-gender" value="female" required> Female</label>
+      </div>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
